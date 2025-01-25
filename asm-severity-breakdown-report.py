@@ -27,7 +27,7 @@ arg_parser.add_argument(
 )
 inventory_id = arg_parser.parse_args().inventory_id
 
-# Generate API key for inventory
+# Get the API key for the specified inventory
 response = requests.get(
     base_url + '/api/1.0/inventories/list',
     headers={
