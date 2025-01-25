@@ -4,7 +4,7 @@ Creates a report from Tenable ASM that contains all assets in a specified invent
 * python3
 ## Configuration
 * Make sure your Tenable ASM user account has [access to the inventories](https://docs.tenable.com/attack-surface-management/Content/Topics/AdministratorUI/EditInventoryDetails.htm) you want to report on.
-* [Generate a Tenable ASM API key for all your inventories](https://docs.tenable.com/attack-surface-management/Content/Topics/UserProfile/GenerateAPIKeys.htm). Copy the API key and paste it in as the value in line 6.
+* [Generate a Tenable ASM API key for all your inventories](https://docs.tenable.com/attack-surface-management/Content/Topics/UserProfile/GenerateAPIKeys.htm). Copy the API key and paste it in as the [value in line 6](https://github.com/andrewspearson/asm-severity-breakdown-report/blob/fd79cb3c080d2e65f41093fcf742f38ca52a506f/asm-severity-breakdown-report.py#L6).
 ## Usage
 View the help menu
 ```
